@@ -38,7 +38,7 @@ public class SampleAnnotationApplication implements CommandLineRunner {
   @SuppressWarnings("squid:S106")
   public void run(String... args) {
 
-    cityMapper.insert("Bayombong", "NV", "Philippines");
+    cityMapper.insert("Bayombong", "NV", "PH");
 
     System.out.println(this.cityMapper.findByState("NV"));
   }

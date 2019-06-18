@@ -34,7 +34,7 @@ class SampleMybatisApplicationTest {
   @Test
   void test(OutputCapture outputCapture) {
     String output = outputCapture.toString();
-    assertThat(output).contains("1,San Francisco,CA,US");
+    assertThat(output).contains("2,Bayombong,NV,PH");
   }
 
 }

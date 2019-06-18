@@ -31,7 +31,7 @@ class SampleMybatisApplicationMainTest {
   void test(OutputCapture outputCapture) {
     SampleAnnotationApplication.main(new String[] {});
     String output = outputCapture.toString();
-    assertThat(output).contains("1,San Francisco,CA,US");
+    assertThat(output).contains("2,Bayombong,NV,PH");
   }
 
 }
